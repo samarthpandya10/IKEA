@@ -1,10 +1,5 @@
 # IKEA Gifting: Customer Analytics and RFM Segmentation
 
-*An end to end data analytics project using SQL, Python, and Power BI*
-
-**Author:** Mansi Goel | YouTube: [Mansi G.](https://www.youtube.com/@Mansi.goel.offical) | Analytics Engineer
-
----
 
 ## Disclaimer
 
@@ -120,17 +115,4 @@ rfm['M_Score'] = pd.qcut(rfm['Monetary'], 5, labels=[1, 2, 3, 4, 5]).astype(int)
 ```
 
 ---
-
-## How to Reproduce This Project
-
-1. Download the Online Retail II dataset from the UCI Machine Learning Repository
-2. Run the SQL scripts in `01_sql` in order to recreate the cleaned `RetailCleaned` table
-3. Export `RetailCleaned` to CSV and run the notebook in `02_python` to generate the segmented dataset
-4. Open the Power BI file in `03_powerbi` and point it to the exported Excel file to refresh
-
----
-
-## Connect
-
-This project is on my YouTube channel, **Mansi G.**, where I break down real, end to end data analyst projects for freshers and early career professionals. Full build walkthrough video linked above.
 
