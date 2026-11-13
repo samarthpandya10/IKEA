@@ -1,12 +1,5 @@
 # IKEA Gifting: Customer Analytics and RFM Segmentation
 
-
-## Disclaimer
-
-**IKEA Gifting** is a fictional company name created for this educational portfolio project. It is not affiliated with, endorsed by, or representative of the real IKEA corporation in any way. All financial figures, customer counts, and business metrics shown in this project are derived entirely from a public, anonymized transactional dataset and do not reflect any real company's actual performance. The IKEA visual branding used in the dashboard is for design and storytelling purposes only.
-
----
-
 ## Project Overview
 
 This project simulates a real world analytics engagement for a fictional UK based gifting and home decor ecommerce brand, **IKEA Gifting**. The goal was to take raw, messy transactional data all the way through to a decision ready business intelligence dashboard, using the same workflow a data analyst would follow inside a real company: define the business problem first, clean and validate the data in SQL, build the analytical logic in Python, and deliver the insight through an interactive Power BI report.
